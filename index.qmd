@@ -1,11 +1,24 @@
 ---
-title: "louiewee.github.io"
+title: "Louie Christopher Wee"
+image: media/headshot.jpg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 10em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/louiewee/
+    - text: GitHub
+      href: https://github.com/louiewee
+    - text: Email
+      href: mailto:louieywee@gmail.com
 ---
 
-This is a Quarto website.
+I am a data analyst and researcher based in Kelowna, British Columbia.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am currently studying Data Analytics and Marketing at Okanagan College.
 
-```{r}
-1 + 1
-```
+I worked as a Research Officer at [CTS Global Equity Group](https://www.ctsglobalgroup.com/) from 2015 to 2021, focusing on market sentiment, risk management, and the fundamental and technical analyses of global equity markets. My efforts contributed to generating alpha returns.
+
+Explore my website to learn more!
