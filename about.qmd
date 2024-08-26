@@ -1,5 +1,6 @@
 ---
-title: "CV — Louie Christopher Wee"
+title: "CV"
+title-block-style: none
 ---
 
 ::: {style="text-align: center; margin-bottom: 20px;"}

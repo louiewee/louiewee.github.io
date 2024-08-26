@@ -1,5 +1,6 @@
 ---
-#title: "Louie Christopher Wee"
+title: "Louie Christopher Wee"
+title-block-style: none
 image: media/headshot.jpg
 toc: false
 about: 
