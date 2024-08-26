@@ -1,9 +1,101 @@
 ---
-title: "About"
+#title: "About"
 ---
 
-About this site
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="https://www.linkedin.com/in/louiewee/" target="_blank" style="margin-right: 15px;">
+    <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+    LinkedIn
+  </a>
+  <a href="https://github.com/louiewee" target="_blank" style="margin-right: 15px;">
+    <i class="fab fa-github" style="font-size: 24px;"></i>
+    GitHub
+  </a>
+  <a href="mailto:louieywee@gmail.com" style="margin-right: 15px;">
+    <i class="fas fa-envelope" style="font-size: 24px;"></i>
+    Email
+  </a>
+</div>
 
-```{r}
-1 + 1
-```
+## Education
+
+**Post-Baccalaureate in Marketing & Data Analytics**\
+*Okanagan College*
+
+ - Okanagan College Academic Achievement Scholarship Award recipient
+ - Awarded Dean's List for all semesters
+
+**Bachelor's Degree in Economics**\
+*University of the Philippines*
+
+ - Graduated with Cum Laude distinction
+ - Awarded College Scholar for all semesters
+
+## Work Experience
+
+**Northern Energy Innovation** - Student Research Assistant\
+*Whitehorse, Yukon \
+May 2024 - Aug 2024*
+
+ - Assisted in creating electric power system models in a computer simulation and modelling environment
+ - Performed exploratory data analysis on power system impact studies to integrate renewable energy sources to existing remote power grid systems
+ - Employed MATLAB/Simulink, R, Python, and Git technologies
+
+**CTS Global Equity Group** - Research Officer\
+*Manila, Philippines\
+Nov 2015 - Jan 2021*
+
+-   Gathered macroeconomic and stock-specific information to seek and capitalize on immediate money-making opportunities primarily in the Hong Kong equities market
+-   Conducted weekly presentations on the Hong Kong market to the trading team and investment team, highlighting stocks in play, notable events, and brief market recaps
+-   Semi-automated Microsoft Excel spreadsheets with Bloomberg API to efficiently extract relevant data for quantitative and qualitative analyses
+-   Team of the Year 2018: Recognized for valuable contributions to team success
+-   Extra Mile Award: For going above and beyond expected duties and responsibilities
+
+## Other Experience (Volunteer/Part-Time)
+
+**Rodd & Gunn** - Sales Associate\
+*Kelowna, British Columbia\
+Nov 2023 - Apr 2024*
+
+**Okanagan College** - 2024 Careers Expo & Employment Fair Volunteer\
+*Kelowna, British Columbia\
+Feb 7, 2024*
+
+**JW Marriott Nashville** - Banquet Cook\
+*Nashville, Tennessee\
+Apr 2022 - Mar 2023*
+
+## Certificates
+
+**Panel on Research Ethics -** Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: Core 2022) [{{< fa link >}}](https://drive.google.com/file/d/1xDqjBB1wbKPzG5-LUWeKv4BF8_RWbSZW/view)
+
+**freeCodeCamp**
+
+ - Data Analysis with Python [{{< fa link >}}](https://www.freecodecamp.org/certification/chairmanwee/data-analysis-with-python-v7)
+ - College Algebra with Python [{{< fa link >}}](https://www.freecodecamp.org/certification/chairmanwee/college-algebra-with-python-v8)
+ - Scientific Computing with Python [{{< fa link >}}](https://www.freecodecamp.org/certification/chairmanwee/scientific-computing-with-python-v7)
+
+**DeepLearning.AI**
+
+ - Generative Adversarial Networks (GANS) Specialization [{{< fa link >}}](https://www.coursera.org/account/accomplishments/specialization/certificate/Y6RANZ4J64U3)
+ - Natural Language Processing Specialization [{{< fa link >}}](https://www.coursera.org/account/accomplishments/specialization/certificate/8RU8TH7R9FWV)
+ - AI for Good Specialization [{{< fa link >}}](https://www.coursera.org/account/accomplishments/specialization/certificate/KKQBA8JKLN7H)
+ - Deep Learning Specialization [{{< fa link >}}](https://www.coursera.org/account/accomplishments/specialization/certificate/UTH7CCQMCNFC)
+ - TensorFlow Developer Specialization [{{< fa link >}}](https://www.coursera.org/account/accomplishments/specialization/certificate/9L4LGEM2N2LP)
+ - Machine Learning Specialization [{{< fa link >}}](https://www.coursera.org/account/accomplishments/specialization/certificate/2BUJW9KLJEM5)
+
+**Culinary Solutions Australia -** Certificate III in Commercial Cookery
+
+**International School for Culinary Arts and Hotel Management (ISCAHM)** - Diploma in Culinary Arts and Kitchen Management
+
+## Test Scores
+
+**Okanagan College Typing Test**: 93 words per minute
+
+## Skills
+
+**Programming**: Python, R, LaTeX, SQL, MATLAB, Git
+
+**Software**: Microsoft Office 365
+
+**Web Development**: HTML, CSS

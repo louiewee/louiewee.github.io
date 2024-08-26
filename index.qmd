@@ -1,24 +1,26 @@
 ---
-title: "Louie Christopher Wee"
+#title: "Louie Christopher Wee"
 image: media/headshot.jpg
 toc: false
 about: 
   template: jolla
   image-shape: round
-  image-width: 10em
+  image-width: 15em
   links:
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/louiewee/
-    - text: GitHub
-      href: https://github.com/louiewee
-    - text: Email
+#    - text: GitHub
+#      href: https://github.com/louiewee
+    - icon: envelope
+      text: Email
       href: mailto:louieywee@gmail.com
 ---
 
-I am a data analyst and researcher based in Kelowna, British Columbia.
+{{< fa brands canadian-maple-leaf >}} I am a Data Analyst and Researcher based in Kelowna, British Columbia.
 
-I am currently studying Data Analytics and Marketing at Okanagan College.
+{{< fa regular graduation-cap >}} I am currently studying Data Analytics and Marketing at Okanagan College.
 
-I worked as a Research Officer at [CTS Global Equity Group](https://www.ctsglobalgroup.com/) from 2015 to 2021, focusing on market sentiment, risk management, and the fundamental and technical analyses of global equity markets. My efforts contributed to generating alpha returns.
+{{< fa regular money-bill-trend-up >}} I worked as a Research Officer at [CTS Global Equity Group](https://www.ctsglobalgroup.com/) from 2015 to 2021, focusing on market sentiment, risk management, and the fundamental and technical analyses of global equity markets.
 
-Explore my website to learn more!
+{{< fa regular face-smile-beam >}} I enjoy traveling, food and sports.

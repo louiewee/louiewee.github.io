@@ -3,13 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "louiewee.github.io"
+  title: "Louie Christopher Wee"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      #- href: index.qmd
+      #  text: Home
+      #- about.qmd
+      - href: about.qmd
+        text: "CV"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/louiewee/
+      - icon: github
+        href: https://github.com/louiewee 
+        
 format:
   html:
     theme: flatly
