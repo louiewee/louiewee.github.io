@@ -1,5 +1,5 @@
 ---
-#title: "About"
+title: "CV — Louie Christopher Wee"
 ---
 
 <div style="text-align: center; margin-bottom: 20px;">
