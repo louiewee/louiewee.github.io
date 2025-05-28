@@ -1,6 +1,5 @@
 ---
 title: "CV"
-title-block-style: none
 ---
 
 ::: {style="text-align: center; margin-bottom: 20px;"}
@@ -9,9 +8,10 @@ title-block-style: none
 
 ## Education
 
-**Post-Baccalaureate in Marketing & Data Analytics**\
+**Post-Baccalaureate Diploma in Marketing & Data Analytics**\
 *Okanagan College*
 
+-   GPA: 95%
 -   Okanagan College Academic Achievement Scholarship Award recipient
 -   Awarded Dean's List for all semesters
 
@@ -55,9 +55,24 @@ Feb 7, 2024*
 *Nashville, Tennessee\
 Apr 2022 - Mar 2023*
 
+## Languages
+
+**English**: Fluent
+
+-   CELPIP-General: CLB 12 [{{< fa link >}}](https://www.celpip.ca/prepare-for-celpip/score-comparison-chart-2/#anchor-3)
+
+**French**: Intermediate
+
+**Tagalog**: Native
+
 ## Certificates
 
 **Panel on Research Ethics -** Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: Core 2022) [{{< fa link >}}](https://drive.google.com/file/d/1xDqjBB1wbKPzG5-LUWeKv4BF8_RWbSZW/view)
+
+**Google**
+
+-   Google Analytics [{{< fa link >}}](https://skillshop.credential.net/208ea7f1-85a1-4757-ae42-a9b81d2fd686#acc.lpnKWNyO)
+-   Data Analytics Specialization [{{< fa link >}}](https://www.coursera.org/account/accomplishments/specialization/certificate/CYKLBEMMR2EH)
 
 **freeCodeCamp**
 
@@ -84,8 +99,8 @@ Apr 2022 - Mar 2023*
 
 ## Skills
 
-**Programming**: Python, R, LaTeX, SQL, MATLAB, Git
+**Data Analysis**: Python, R, SQL, Excel, SPSS, MATLAB, Bloomberg
 
-**Software**: Microsoft Office 365
+**Data Visualization**: Tableau, PowerBI
 
 **Web Development**: HTML, CSS
