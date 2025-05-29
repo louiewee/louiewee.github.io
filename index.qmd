@@ -22,8 +22,10 @@ about:
 
 {{< fa regular scale-balanced >}} I am currently pursuing the Financial Risk Manager (FRM) designation.
 
-{{< fa regular graduation-cap >}} I recently completed a Post-Baccalaureate in Data Analytics and Marketing at Okanagan College (Ranked #1 with GPA of 95%).
+{{< fa regular graduation-cap >}} I recently completed a Post-Baccalaureate in Data Analytics and Marketing at Okanagan College  
+(Ranked #1 with GPA of 95%).
 
-{{< fa regular money-bill-trend-up >}} I worked as a Research Officer at [CTS Global Equity Group](https://www.ctsglobalgroup.com/) from 2015 to 2021, focusing on market sentiment, risk management, and the fundamental and technical analyses of global equity markets.
+{{< fa regular money-bill-trend-up >}} I worked as a Research Officer at [CTS Global Equity Group](https://www.ctsglobalgroup.com/) for 5 years,  
+focusing on market sentiment, risk management, and analysis of global equity markets.
 
 {{< fa regular face-smile-beam >}} I enjoy traveling, food and sports.
