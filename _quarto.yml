@@ -11,6 +11,8 @@ website:
       #- about.qmd
       - href: about.qmd
         text: "CV"
+      - href: viz.qmd
+        text: "Viz"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/louiewee/
@@ -24,4 +26,3 @@ format:
     toc: true
 
 editor: visual
-

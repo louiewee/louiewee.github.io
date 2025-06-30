@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Louie Christopher Wee - CV</title>
+<title>Louie Christopher Wee - TidyTuesday Visualizations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,8 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,11 +81,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./viz.html" rel="" target="">
+    <a class="nav-link active" href="./viz.html" rel="" target="" aria-current="page">
  <span class="menu-text">Viz</span></a>
   </li>  
 </ul>
@@ -110,30 +108,16 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
-  <li><a href="#other-experience-volunteerpart-time" id="toc-other-experience-volunteerpart-time" class="nav-link" data-scroll-target="#other-experience-volunteerpart-time">Other Experience (Volunteer/Part-Time)</a></li>
-  <li><a href="#languages" id="toc-languages" class="nav-link" data-scroll-target="#languages">Languages</a></li>
-  <li><a href="#certificates" id="toc-certificates" class="nav-link" data-scroll-target="#certificates">Certificates</a></li>
-  <li><a href="#test-scores" id="toc-test-scores" class="nav-link" data-scroll-target="#test-scores">Test Scores</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CV</h1>
+<h1 class="title">TidyTuesday Visualizations</h1>
 </div>
 
 
@@ -148,106 +132,144 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div style="text-align: center; margin-bottom: 20px;">
-<p><a href="https://www.linkedin.com/in/louiewee/" target="_blank" style="margin-right: 15px;"> <i class="fab fa-linkedin" style="font-size: 24px;"></i> LinkedIn </a> <a href="https://github.com/louiewee" target="_blank" style="margin-right: 15px;"> <i class="fab fa-github" style="font-size: 24px;"></i> GitHub </a> <a href="mailto:louieywee@gmail.com" style="margin-right: 15px;"> <i class="fas fa-envelope" style="font-size: 24px;"></i> Email </a></p>
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.gallery-item {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  cursor: pointer;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  cursor: default;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #ccc;
+}
+</style>
+<section id="tidytuesday-gallery" class="level2">
+<h2 class="anchored" data-anchor-id="tidytuesday-gallery">TidyTuesday Gallery</h2>
+<p><a href="https://github.com/rfordatascience/tidytuesday/blob/main/README.md">TidyTuesday</a> is a weekly social data project organized by the <a href="https://dslc.io/">Data Science Learning Community</a>.</p>
+<p>My complete TidyTuesday code and projects can be accessed <a href="https://github.com/louiewee/TidyTuesday">here</a>.</p>
+<div class="filter-section">
+<button class="filter-btn active" data-filter="all">
+All
+</button>
+<button class="filter-btn" data-filter=" ggplot2 ">
+ggplot2
+</button>
+<button class="filter-btn" data-filter=" ggtext ">
+ggtext
+</button>
+<button class="filter-btn" data-filter=" scales ">
+scales
+</button>
+<button class="filter-btn" data-filter=" showtext ">
+showtext
+</button>
+<button class="filter-btn" data-filter=" tidyverse ">
+tidyverse
+</button>
 </div>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><strong>Post-Baccalaureate Diploma in Marketing &amp; Data Analytics</strong><br>
-<em>Okanagan College</em></p>
-<ul>
-<li>GPA: 95%</li>
-<li>Okanagan College Academic Achievement Scholarship Award recipient</li>
-<li>Awarded Dean’s List for all semesters</li>
-</ul>
-<p><strong>Bachelor’s Degree in Economics</strong><br>
-<em>University of the Philippines</em></p>
-<ul>
-<li>Graduated with Cum Laude distinction</li>
-<li>Awarded College Scholar for all semesters</li>
-</ul>
-</section>
-<section id="work-experience" class="level2">
-<h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
-<p><strong>Northern Energy Innovation</strong> - Student Research Assistant<br>
-<em>Whitehorse, Yukon<br>
-May 2024 - Aug 2024</em></p>
-<ul>
-<li>Assisted in creating electric power system models in a computer simulation and modelling environment</li>
-<li>Performed exploratory data analysis on power system impact studies to integrate renewable energy sources to existing remote power grid systems</li>
-<li>Employed MATLAB/Simulink, R, Python, and Git technologies</li>
-</ul>
-<p><strong>CTS Global Equity Group</strong> - Research Officer<br>
-<em>Manila, Philippines<br>
-Nov 2015 - Jan 2021</em></p>
-<ul>
-<li>Gathered macroeconomic and stock-specific information to seek and capitalize on immediate money-making opportunities primarily in the Hong Kong equities market</li>
-<li>Conducted weekly presentations on the Hong Kong market to the trading team and investment team, highlighting stocks in play, notable events, and brief market recaps</li>
-<li>Semi-automated Microsoft Excel spreadsheets with Bloomberg API to efficiently extract relevant data for quantitative and qualitative analyses</li>
-<li>Team of the Year 2018: Recognized for valuable contributions to team success</li>
-<li>Extra Mile Award: For going above and beyond expected duties and responsibilities</li>
-</ul>
-</section>
-<section id="other-experience-volunteerpart-time" class="level2">
-<h2 class="anchored" data-anchor-id="other-experience-volunteerpart-time">Other Experience (Volunteer/Part-Time)</h2>
-<p><strong>Rodd &amp; Gunn</strong> - Sales Associate<br>
-<em>Kelowna, British Columbia<br>
-Nov 2023 - Apr 2024</em></p>
-<p><strong>Okanagan College</strong> - 2024 Careers Expo &amp; Employment Fair Volunteer<br>
-<em>Kelowna, British Columbia<br>
-Feb 7, 2024</em></p>
-<p><strong>JW Marriott Nashville</strong> - Banquet Cook<br>
-<em>Nashville, Tennessee<br>
-Apr 2022 - Mar 2023</em></p>
-</section>
-<section id="languages" class="level2">
-<h2 class="anchored" data-anchor-id="languages">Languages</h2>
-<p><strong>English</strong>: Fluent</p>
-<ul>
-<li>CELPIP-General: CLB 12 <a href="https://www.celpip.ca/prepare-for-celpip/score-comparison-chart-2/#anchor-3"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-</ul>
-<p><strong>French</strong>: Intermediate</p>
-<ul>
-<li>TCF Canada: NCLC 8</li>
-</ul>
-<p><strong>Tagalog</strong>: Native</p>
-</section>
-<section id="certificates" class="level2">
-<h2 class="anchored" data-anchor-id="certificates">Certificates</h2>
-<p><strong>Panel on Research Ethics -</strong> Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: Core 2022) <a href="https://drive.google.com/file/d/1xDqjBB1wbKPzG5-LUWeKv4BF8_RWbSZW/view"><i class="fa-solid fa-link" aria-label="link"></i></a></p>
-<p><strong>Google</strong></p>
-<ul>
-<li>Google Analytics <a href="https://skillshop.credential.net/208ea7f1-85a1-4757-ae42-a9b81d2fd686#acc.lpnKWNyO"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-<li>Data Analytics Specialization <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/CYKLBEMMR2EH"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-</ul>
-<p><strong>freeCodeCamp</strong></p>
-<ul>
-<li>Data Analysis with Python <a href="https://www.freecodecamp.org/certification/chairmanwee/data-analysis-with-python-v7"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-<li>College Algebra with Python <a href="https://www.freecodecamp.org/certification/chairmanwee/college-algebra-with-python-v8"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-<li>Scientific Computing with Python <a href="https://www.freecodecamp.org/certification/chairmanwee/scientific-computing-with-python-v7"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-</ul>
-<p><strong>DeepLearning.AI</strong></p>
-<ul>
-<li>Generative Adversarial Networks (GANS) Specialization <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/Y6RANZ4J64U3"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-<li>Natural Language Processing Specialization <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/8RU8TH7R9FWV"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-<li>AI for Good Specialization <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/KKQBA8JKLN7H"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-<li>Deep Learning Specialization <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/UTH7CCQMCNFC"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-<li>TensorFlow Developer Specialization <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/9L4LGEM2N2LP"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-<li>Machine Learning Specialization <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/2BUJW9KLJEM5"><i class="fa-solid fa-link" aria-label="link"></i></a></li>
-</ul>
-<p><strong>Culinary Solutions Australia -</strong> Certificate III in Commercial Cookery</p>
-<p><strong>International School for Culinary Arts and Hotel Management (ISCAHM)</strong> - Diploma in Culinary Arts and Kitchen Management</p>
-</section>
-<section id="test-scores" class="level2">
-<h2 class="anchored" data-anchor-id="test-scores">Test Scores</h2>
-<p><strong>Okanagan College Typing Test</strong>: 93 words per minute</p>
-</section>
-<section id="skills" class="level2">
-<h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<p><strong>Data Analysis</strong>: Python, R, SQL, Excel, SPSS, MATLAB, Bloomberg</p>
-<p><strong>Data Visualization</strong>: Tableau, Power BI</p>
-<p><strong>Database Management</strong>: Snowflake, Databricks</p>
-<p><strong>Web Development</strong>: HTML, CSS</p>
+<div class="gallery">
+<div class="gallery-item" data-packages=" ggplot2 tidyverse ggtext showtext ">
+<p><a href=" https://raw.githubusercontent.com/louiewee/TidyTuesday/refs/heads/main/2025/03-11-2025/03-11-2025.png " target="_blank"> <img src=" https://raw.githubusercontent.com/louiewee/TidyTuesday/refs/heads/main/2025/03-11-2025/03-11-2025.png " alt="TidyTuesday Visualization" loading="lazy"> </a></p>
+</div>
+<div class="gallery-item" data-packages=" ggplot2 tidyverse ggtext showtext scales ">
+<p><a href=" https://raw.githubusercontent.com/louiewee/TidyTuesday/refs/heads/main/2025/04-01-2025/04-01-2025.png " target="_blank"> <img src=" https://raw.githubusercontent.com/louiewee/TidyTuesday/refs/heads/main/2025/04-01-2025/04-01-2025.png " alt="TidyTuesday Visualization" loading="lazy"> </a></p>
+</div>
+</div>
+<!-- Modal removed - using new tab instead -->
+<script>
+// Wait for the page to load
+document.addEventListener('DOMContentLoaded', function() {
+  
+  // Add click listeners to filter buttons
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  
+  filterButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      const filter = this.getAttribute('data-filter');
+      
+      // Update button states
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+      
+      // Filter gallery items
+      galleryItems.forEach(function(item) {
+        const itemPackages = item.getAttribute('data-packages') || '';
+        
+        if (filter === 'all') {
+          item.style.display = 'block';
+        } else {
+          if (itemPackages.includes(filter)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+});
+</script>
 
 
 </section>

@@ -1,0 +1,212 @@
+---
+title: "TidyTuesday Visualizations"
+format: 
+  html:
+    toc: false
+    page-layout: full
+---
+
+```{r setup, include=FALSE}
+library(readr)
+library(dplyr)
+library(readr)
+
+# Read the CSV directly from your TidyTuesday GitHub repo
+csv_url <- "https://raw.githubusercontent.com/louiewee/TidyTuesday/refs/heads/main/data/tidytuesday_plots.csv"
+
+# Try to read the CSV
+tryCatch({
+  plots_data <- read_csv(csv_url, show_col_types = FALSE)
+  cat("✅ Successfully loaded", nrow(plots_data), "plots from TidyTuesday repo\n")
+}, error = function(e) {
+  plots_data <<- data.frame(
+    image_path = character(0),
+    packages = character(0)
+  )
+  cat("⚠️ Could not load CSV from TidyTuesday repo.\n")
+})
+```
+
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.gallery-item {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  cursor: pointer;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  cursor: default;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #ccc;
+}
+</style>
+
+## TidyTuesday Gallery
+
+[TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/main/README.md) is a weekly social data project organized by the [Data Science Learning Community](https://dslc.io/).
+
+My complete TidyTuesday code and projects can be accessed [here](https://github.com/louiewee/TidyTuesday).
+
+```{r filters, echo=FALSE, results='asis', eval=nrow(plots_data) > 0}
+if (nrow(plots_data) > 0 && "packages" %in% colnames(plots_data)) {
+  
+  # Get unique packages without pipes
+  packages_list <- strsplit(plots_data$packages, ",")
+  all_packages_raw <- unlist(packages_list)
+  all_packages_trimmed <- trimws(all_packages_raw)
+  all_packages_unique <- unique(all_packages_trimmed)
+  all_packages <- sort(all_packages_unique)
+  
+  # Remove empty packages
+  all_packages <- all_packages[all_packages != "" & !is.na(all_packages)]
+  
+  if (length(all_packages) > 0) {
+    cat('<div class="filter-section">\n')
+    cat('<button class="filter-btn active" data-filter="all">All</button>\n')
+    
+    for (pkg in all_packages) {
+      cat('<button class="filter-btn" data-filter="', pkg, '">', pkg, '</button>\n')
+    }
+    
+    cat('</div>\n')
+  }
+}
+```
+
+```{r gallery, echo=FALSE, results='asis'}
+if (nrow(plots_data) > 0) {
+  
+  cat('<div class="gallery">\n')
+  
+  for (i in 1:nrow(plots_data)) {
+    image_path <- as.character(plots_data$image_path[i])
+    
+    # Convert to GitHub raw URL
+    image_url <- ifelse(
+      startsWith(image_path, "http"),
+      image_path,
+      paste0("https://raw.githubusercontent.com/louiewee/TidyTuesday/refs/heads/main/", image_path)
+    )
+    
+    # Get packages for this visualization
+    packages_raw <- ""
+    if ("packages" %in% colnames(plots_data)) {
+      packages_raw <- as.character(plots_data$packages[i])
+      if (is.na(packages_raw)) packages_raw <- ""
+    }
+    
+    # Create space-separated package list for data attribute
+    packages <- trimws(strsplit(packages_raw, ",")[[1]])
+    packages <- packages[packages != "" & !is.na(packages)]
+    package_classes <- paste(packages, collapse = " ")
+    
+    cat('<div class="gallery-item" data-packages="', package_classes, '">\n')
+    cat('  <a href="', image_url, '" target="_blank">\n')
+    cat('    <img src="', image_url, '" alt="TidyTuesday Visualization" loading="lazy">\n')
+    cat('  </a>\n')
+    cat('</div>\n')
+  }
+  
+  cat('</div>\n')
+  
+} else {
+  cat('<div class="alert">')
+  cat('<p>No visualizations found. Check out my TidyTuesday repository: <a href="https://github.com/louiewee/TidyTuesday">github.com/louiewee/TidyTuesday</a></p>')
+  cat('</div>')
+}
+```
+
+<!-- Modal removed - using new tab instead -->
+
+<script>
+// Wait for the page to load
+document.addEventListener('DOMContentLoaded', function() {
+  
+  // Add click listeners to filter buttons
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  
+  filterButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      const filter = this.getAttribute('data-filter');
+      
+      // Update button states
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+      
+      // Filter gallery items
+      galleryItems.forEach(function(item) {
+        const itemPackages = item.getAttribute('data-packages') || '';
+        
+        if (filter === 'all') {
+          item.style.display = 'block';
+        } else {
+          if (itemPackages.includes(filter)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+});
+</script>

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Louie Christopher Wee",
     "section": "",
-    "text": "I am a Data Analyst and Researcher based in Calgary, Alberta.\n I am currently pursuing the Financial Risk Manager (FRM) designation.\n I recently completed a Post-Baccalaureate in Data Analytics and Marketing at Okanagan College\n(Ranked #1 with GPA of 95%).\n I worked as a Research Officer at CTS Global Equity Group for 5 years,\nfocusing on market sentiment, risk management, and analysis of global equity markets.\n I enjoy traveling, food and sports."
+    "text": "I am a Data Analyst based in Calgary, Alberta.\n I am currently pursuing the Canadian Securities Course (CSC) designation.\n I recently completed a Post-Baccalaureate in Data Analytics and Marketing at Okanagan College\n(Ranked #1 with GPA of 95%).\n I worked as a Research Officer at CTS Global Equity Group for 5 years,\nfocusing on market sentiment, risk management, and analysis of global equity markets.\n I enjoy traveling, food and sports.\n Check out what I’m working on!"
   },
   {
     "objectID": "about.html",
@@ -53,7 +53,7 @@
     "href": "about.html#skills",
     "title": "CV",
     "section": "Skills",
-    "text": "Skills\nData Analysis: Python, R, SQL, Excel, SPSS, MATLAB, Bloomberg\nData Visualization: Tableau, PowerBI\nWeb Development: HTML, CSS"
+    "text": "Skills\nData Analysis: Python, R, SQL, Excel, SPSS, MATLAB, Bloomberg\nData Visualization: Tableau, Power BI\nDatabase Management: Snowflake, Databricks\nWeb Development: HTML, CSS"
   },
   {
     "objectID": "about.html#languages",
@@ -61,5 +61,33 @@
     "title": "CV",
     "section": "Languages",
     "text": "Languages\nEnglish: Fluent\n\nCELPIP-General: CLB 12 \n\nFrench: Intermediate\n\nTCF Canada: NCLC 8\n\nTagalog: Native"
+  },
+  {
+    "objectID": "viz.html",
+    "href": "viz.html",
+    "title": "TidyTuesday Visualizations",
+    "section": "",
+    "text": "TidyTuesday is a weekly social data project organized by the Data Science Learning Community.\nMy complete TidyTuesday code and projects can be accessed here.\n\n\nAll\n\n\nggplot2\n\n\nggtext\n\n\nscales\n\n\nshowtext\n\n\ntidyverse"
+  },
+  {
+    "objectID": "viz.html#my-tidytuesday-journey",
+    "href": "viz.html#my-tidytuesday-journey",
+    "title": "TidyTuesday Visualizations",
+    "section": "",
+    "text": "Welcome to my collection of #TidyTuesday visualizations! TidyTuesday is a weekly data project aimed at the R community, where each week presents a new dataset to explore and visualize.\nYou can view my complete TidyTuesday code and projects at: github.com/louiewee/TidyTuesday\n\nBrowse through my 2 TidyTuesday visualizations below!\n\n\n\n\n\n\nAll\nggplot2\nggtext\nscales\nshowtext\ntidyverse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of Critical Reception\nWeek 10 , 2025\n\nggplot2\ntidyverse\nggtext\nshowtext\n\n\n\n\n Project\n\n\n\n Data\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of Pokmon Base Stats\nWeek 13 , 2025\n\nggplot2\ntidyverse\nggtext\nshowtext\nscales\n\n\n\n\n Project\n\n\n\n Data"
+  },
+  {
+    "objectID": "viz.html#my-tidytuesday-visualizations",
+    "href": "viz.html#my-tidytuesday-visualizations",
+    "title": "TidyTuesday Visualizations",
+    "section": "",
+    "text": "Click on any thumbnail to view the full-size image in a new tab.\nYou can view my complete TidyTuesday code and projects at: github.com/louiewee/TidyTuesday\n\n\n\nAll\n\n\nggplot2\n\n\nggtext\n\n\nscales\n\n\nshowtext\n\n\ntidyverse"
+  },
+  {
+    "objectID": "viz.html#tidytuesday-gallery",
+    "href": "viz.html#tidytuesday-gallery",
+    "title": "TidyTuesday Visualizations",
+    "section": "",
+    "text": "TidyTuesday is a weekly social data project organized by the Data Science Learning Community.\nMy complete TidyTuesday code and projects can be accessed here.\n\n\nAll\n\n\nggplot2\n\n\nggtext\n\n\nscales\n\n\nshowtext\n\n\ntidyverse"
   }
 ]

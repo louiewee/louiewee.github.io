@@ -103,6 +103,8 @@ Apr 2022 - Mar 2023*
 
 **Data Analysis**: Python, R, SQL, Excel, SPSS, MATLAB, Bloomberg
 
-**Data Visualization**: Tableau, PowerBI
+**Data Visualization**: Tableau, Power BI
+
+**Database Management**: Snowflake, Databricks
 
 **Web Development**: HTML, CSS
