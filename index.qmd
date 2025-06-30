@@ -30,4 +30,4 @@ focusing on market sentiment, risk management, and analysis of global equity mar
 
 {{< fa regular face-smile-beam >}} I enjoy traveling, food and sports. 
 
-{{< fa regular check >}} [Check out](https://louiewee.github.io/vizhtml) what I'm working on!
+{{< fa regular check >}} [Check out](https://louiewee.github.io/viz.html) what I'm working on!

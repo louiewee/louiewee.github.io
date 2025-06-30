@@ -103,7 +103,7 @@ tryCatch({
 
 [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/main/README.md) is a weekly social data project organized by the [Data Science Learning Community](https://dslc.io/).
 
-My complete TidyTuesday code and projects can be accessed [here](https://github.com/louiewee/TidyTuesday).
+Complete code can be accessed [here](https://github.com/louiewee/TidyTuesday).
 
 ```{r filters, echo=FALSE, results='asis', eval=nrow(plots_data) > 0}
 if (nrow(plots_data) > 0 && "packages" %in% colnames(plots_data)) {
