@@ -43,6 +43,13 @@ Nov 2015 - Jan 2021*
 
 ## Other Experience (Volunteer/Part-Time)
 
+**Platform Calgary** - Volunteer\
+*Calgary, Alberta\
+June 2025 - Present*\
+
+-   Community Connect (June 2025)
+-   NEON MOON Energy Innovations Stampede Party 2025
+
 **Rodd & Gunn** - Sales Associate\
 *Kelowna, British Columbia\
 Nov 2023 - Apr 2024*
@@ -68,6 +75,10 @@ Apr 2022 - Mar 2023*
 **Tagalog**: Native
 
 ## Certificates
+
+**Microsoft**
+
+-   Azure Fundamentals (AZ-900) [{{< fa link >}}](https://learn.microsoft.com/en-us/users/louiechristopherwee-2936/credentials/786c83f9160c2bd6?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 
 **Panel on Research Ethics -** Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: Core 2022) [{{< fa link >}}](https://drive.google.com/file/d/1xDqjBB1wbKPzG5-LUWeKv4BF8_RWbSZW/view)
 
@@ -105,6 +116,6 @@ Apr 2022 - Mar 2023*
 
 **Data Visualization**: Tableau, Power BI
 
-**Database Management**: Snowflake, Databricks
+**Cloud Computing & Database Management**: Azure, Snowflake, Databricks
 
 **Web Development**: HTML, CSS

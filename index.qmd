@@ -20,7 +20,7 @@ about:
 
 {{< fa brands canadian-maple-leaf >}} I am a Data Analyst based in Calgary, Alberta.
 
-{{< fa regular scale-balanced >}} I am currently pursuing the Canadian Securities Course (CSC) designation.
+{{< fa regular trophy >}} I am currently pursuing the Microsoft Power BI Data Analyst (PL-300) certification.
 
 {{< fa regular graduation-cap >}} I recently completed a Post-Baccalaureate in Data Analytics and Marketing at Okanagan College  
 (Ranked #1 with GPA of 95%).
