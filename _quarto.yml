@@ -12,7 +12,7 @@ website:
       - href: about.qmd
         text: "CV"
       - href: viz.qmd
-        text: "Viz"
+        text: "Portfolio"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/louiewee/
