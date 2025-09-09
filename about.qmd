@@ -14,7 +14,7 @@ May 2024 - Aug 2024*
 
 -   Supported analytics for renewable integration in remote Northern Canadian power systems
 -   Conducted in-depth exploratory data analysis on structured datasets consisting of simulated scenarios resulting from the installation of a wind turbine and battery energy storage system to the existing power system
--   Forecasted variability in remote community energy data by applying statistical methods such as block-based bootstrapping 
+-   Forecasted variability in remote community energy data by applying statistical methods such as block-based bootstrapping
 -   Delivered reproducible code in R, Python and MATLAB for internal use and documentation of data workflows
 
 **CTS Global Equity Group** - Research Officer\
@@ -74,6 +74,10 @@ Apr 2022 - Mar 2023*
 **Web Development**: HTML, CSS
 
 ## Certificates
+
+**Canadian Securities Institute (CSI)**
+
+-   Investment Funds in Canada (IFC) [{{< fa link >}}](https://www.credly.com/badges/7bbb98eb-e4ce-4d7c-ba3a-f0caee954e01/public_url)
 
 **Microsoft**
 
