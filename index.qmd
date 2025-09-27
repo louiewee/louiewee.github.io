@@ -18,9 +18,9 @@ about:
       href: mailto:louieywee@gmail.com
 ---
 
-{{< fa brands canadian-maple-leaf >}} I am an Analyst based in Calgary, Alberta.
+{{< fa brands canadian-maple-leaf >}} I am a Financial Analyst based in Calgary, Alberta.
 
-{{< fa regular trophy >}} I am currently pursuing the Canadian Securities Course (CSC) and Microsoft Power BI Data Analyst (PL-300) certifications.
+{{< fa regular trophy >}} I am currently pursuing the Canadian Securities Course (CSC®), with my eyes set on the Chartered Investment Manager (CIM®) designation.
 
 {{< fa regular graduation-cap >}} I recently completed the Investment Funds in Canada (IFC), and Post-Baccalaureate Diploma in Data Analytics and Marketing at Okanagan College (Ranked #1 with GPA of 95%).
 
