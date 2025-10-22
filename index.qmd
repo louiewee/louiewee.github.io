@@ -20,9 +20,9 @@ about:
 
 {{< fa brands canadian-maple-leaf >}} I am a Financial Analyst based in Calgary, Alberta.
 
-{{< fa regular trophy >}} I am currently pursuing the Canadian Securities Course (CSC®), with my eyes set on the Chartered Investment Manager (CIM®) designation.
+{{< fa regular trophy >}} I am currently pursuing the Chartered Investment Manager (CIM®) designation.
 
-{{< fa regular graduation-cap >}} I recently completed the Investment Funds in Canada (IFC), and Post-Baccalaureate Diploma in Data Analytics and Marketing at Okanagan College (Ranked #1 with GPA of 95%).
+{{< fa regular graduation-cap >}} I recently completed the Investment Funds in Canada (IFC), the Canadian Securities Course (CSC®), and Post-Baccalaureate Diploma in Data Analytics and Marketing at Okanagan College (Ranked #1 with GPA of 95%).
 
 {{< fa regular money-bill-trend-up >}} I worked as a Research Officer at [CTS Global Equity Group](https://www.ctsglobalgroup.com/) for 5 years,  
 focusing on market sentiment, risk management, and analysis of global equity markets.
