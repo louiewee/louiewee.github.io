@@ -81,8 +81,13 @@ Apr 2022 - Mar 2023*
 
 ## Certificates
 
+**CFA Institute**
+
+-   CFA Program Level I [{{< fa link >}}](https://credentials.cfainstitute.org/78516e56-9670-41fb-9ac7-31cf6ef57e2d#acc.N4SqtiRo)
+
 **Canadian Securities Institute (CSI)**
 
+-   Investment Management Techniques (IMT®)
 -   Canadian Securities Course (CSC®) [{{< fa link >}}](https://www.credly.com/badges/82cd72aa-1198-4315-9aca-80b8d2dcb1ee/public_url)
 -   Investment Funds in Canada (IFC) [{{< fa link >}}](https://www.credly.com/badges/7bbb98eb-e4ce-4d7c-ba3a-f0caee954e01/public_url)
 

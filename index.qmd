@@ -18,15 +18,13 @@ about:
       href: mailto:louieywee@gmail.com
 ---
 
-{{< fa brands canadian-maple-leaf >}} I am a Financial Analyst based in Calgary, Alberta.
+{{< fa brands canadian-maple-leaf >}} I am a Master of Finance candidate at Haskayne School of Business in the University of Calgary.
 
-{{< fa regular trophy >}} I am currently pursuing the Chartered Financial Analyst (CFA®) designation.
+{{< fa regular trophy >}} I am currently pursuing the Chartered Financial Analyst (CFA®) charter and the Financial Risk Manager (FRM®) designation.
 
-{{< fa regular graduation-cap >}} I recently completed the Investment Funds in Canada (IFC), the Canadian Securities Course (CSC®), and Post-Baccalaureate Diploma in Data Analytics and Marketing at Okanagan College (Ranked #1 with GPA of 95%).
+{{< fa regular graduation-cap >}} I recently completed the Investment Funds in Canada (IFC), the Canadian Securities Course (CSC®), the Investment Management Techniques (IMT®), and Post-Baccalaureate Diploma in Data Analytics and Marketing at Okanagan College (Ranked #1 with GPA of 95%).
 
 {{< fa regular money-bill-trend-up >}} I worked as a Research Officer at [CTS Global Equity Group](https://www.ctsglobalgroup.com/) for 5 years,  
 focusing on market sentiment, risk management, and analysis of global equity markets.
 
-{{< fa regular face-smile-beam >}} I enjoy traveling, food and sports. 
-
-{{< fa regular check >}} [Check out](https://louiewee.github.io/viz.html) what I'm working on!
+{{< fa regular face-smile-beam >}} I enjoy traveling, food and sports.
